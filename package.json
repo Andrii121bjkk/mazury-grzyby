@@ -1,0 +1,7 @@
+{
+  "name":"mazury-grzyby",
+  "private":true,
+  "version":"1.0.0",
+  "scripts":{"dev":"npx wrangler pages dev public","deploy":"npx wrangler pages deploy public --project-name mazury-grzyby"},
+  "devDependencies":{"wrangler":"latest"}
+}
