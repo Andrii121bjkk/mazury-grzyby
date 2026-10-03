@@ -1,4 +1,4 @@
-const CACHE='grzyby-mazury-v1';
+const CACHE='grzyby-warszawa-v2';
 const APP=['/','/manifest.webmanifest','/icon.svg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(APP)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
